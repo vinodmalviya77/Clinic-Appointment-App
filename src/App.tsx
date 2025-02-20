@@ -6,8 +6,8 @@ import Unauthorized from "./Components/Unauthorized";
 import Login from "./Components/Login";
 import ProtectedRoute from "./Components/ProtectedRoute";
 import Dashboard from "./Components/Dashboard";
-import Contact from './Components/Contact';
-import About from './Components/About';
+import Contact from './Components/Contact.tsx';
+import About from './Components/About.tsx';
 
 const App = () => {
   const isAuthenticated = AuthService.isAuthenticated();
