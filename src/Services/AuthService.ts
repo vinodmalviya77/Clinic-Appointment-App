@@ -1,6 +1,6 @@
 const AuthService = {
     login: (userrole: string, userid: string) => {
-        if (userrole === "Admin" && userid === "1234") {
+        if (userrole === "Admin" && userid === "12345") {
             localStorage.setItem("auth", "true");
             localStorage.setItem("role", "Admin");
             localStorage.setItem("userid", userid);
