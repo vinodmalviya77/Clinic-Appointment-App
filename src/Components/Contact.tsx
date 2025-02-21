@@ -1,6 +1,6 @@
 
 const Contact = () => {
-    return <h2 className='container mt-5'>About clinic appointment managment system.</h2>
+    return <h5 className='container mt-5'>Contact: clinic-help@org.com.</h5>
 }
 
 export default Contact;

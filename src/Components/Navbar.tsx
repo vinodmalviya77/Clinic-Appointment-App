@@ -7,7 +7,7 @@ const Navbar = () => {
 
     return (
         <nav className='navbar navbar-light bg-light px-3'>
-            <a className='navbar-brand' href='/'>Clinic Appointments</a>
+            <a className='navbar-brand' href='/'>Clinic dashboard</a>
             <a className='navbar-brand' href='/contact'>Contact</a>
             <a className='navbar-brand' href='/about'>About</a>
             {isAuthenticated && (
